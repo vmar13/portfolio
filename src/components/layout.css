@@ -606,7 +606,8 @@ pre tt:after {
 }
 
 .job-title {
-  font-size: 2.7em;
+  font-size: 3.5em;
+  align-self: center;
 }
 
 .name {

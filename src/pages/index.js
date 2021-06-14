@@ -11,8 +11,12 @@ const IndexPage = () => (
     <h1 className='name'>Vanessa Martinez</h1>
     <h2 className='job-title'>Full Stack Developer</h2>
 
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{ 
+      maxWidth: `300px`, 
+      marginBottom: `1.45rem`, 
+      marginLeft: `auto`, 
+      marginRight: `auto` }}>
+    <Image />
     </div>
 
     <div className='home-nav-container'>

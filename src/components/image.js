@@ -26,11 +26,17 @@ const Image = () => {
     }
   `)
 
+  const styles = {
+    width: `200px`,
+    height: `200px`,
+    borderRadius: `50%`
+  }
+
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image
