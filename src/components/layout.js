@@ -32,13 +32,13 @@ const Layout = ({ children }) => {
           justifyContent: `center`,
           textAlign: `center`,
           margin: `auto auto`,
-          paddingTop: `3%`,
+          paddingTop: `7%`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`          
           // backgroundColor: `yellow`
         }}
       >
-        <main>{children}</main>
+        <main style={{ marginTop: `6rem`, zIndex: `3` }}>{children}</main>
         {/* <footer
           style={{
             marginTop: `2rem`,
