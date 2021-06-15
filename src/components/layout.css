@@ -599,17 +599,31 @@ pre tt:after {
 
 /************************MY CSS********************/
 
+body {
+  background-color: black;
+}
+
+.home-nav-btn {
+  text-decoration: none;
+  background-color: white;
+  padding: 3%;
+}
+
 .home-nav-container {
   display: flex;
-  width: 40%;
+  width: 100%;
+  margin: 12% auto 0 auto;
   justify-content: space-around;
 }
 
 .job-title {
-  font-size: 3.5em;
-  align-self: center;
+  font-size: 3em;
+  /* align-self: center; */
+  text-align: center;
+  color: white;
 }
 
 .name {
   font-size: 4em;
+  color: white;
 }

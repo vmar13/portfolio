@@ -29,7 +29,9 @@ const Image = () => {
   const styles = {
     width: `200px`,
     height: `200px`,
-    borderRadius: `50%`
+    borderRadius: `50%`,
+    marginLeft: `auto`, 
+    marginRight: `auto`
   }
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {

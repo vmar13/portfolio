@@ -32,9 +32,10 @@ const Layout = ({ children }) => {
           justifyContent: `center`,
           textAlign: `center`,
           margin: `auto auto`,
+          paddingTop: `3%`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-          backgroundColor: `yellow`
+          padding: `0 1.0875rem 1.45rem`          
+          // backgroundColor: `yellow`
         }}
       >
         <main>{children}</main>

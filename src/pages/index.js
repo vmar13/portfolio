@@ -20,9 +20,10 @@ const IndexPage = () => (
     </div>
 
     <div className='home-nav-container'>
-      <button className='home-nav-btn'><Link to="/about/">About</Link></button> 
-      <button className='home-nav-btn'><Link to="/projects/">Projects</Link></button> 
-      <button className='home-nav-btn'><Link to="/resume/">Resume</Link></button> 
+      <button className='home-nav-btn'><Link to="/about/" style={{textDecoration: `none`}}>About</Link></button> 
+      <button className='home-nav-btn'><Link to="/projects/" style={{textDecoration: `none`}}>Projects</Link></button> 
+      <button className='home-nav-btn'><Link to="/resume/" style={{textDecoration: `none`}}>Resume</Link></button> 
+      <button className='home-nav-btn'><Link to="/resume/" style={{textDecoration: `none`}}>Resume</Link></button> 
     </div>
   </Layout>
 )
