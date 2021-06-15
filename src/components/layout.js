@@ -27,16 +27,16 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div
-        style={{
-          display: `flex`,
-          justifyContent: `center`,
-          textAlign: `center`,
-          margin: `auto auto`,
-          paddingTop: `7%`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`          
-          // backgroundColor: `yellow`
-        }}
+        // style={{
+        //   display: `flex`,
+        //   justifyContent: `center`,
+        //   textAlign: `center`,
+        //   margin: `auto auto`,
+        //   paddingTop: `7%`,
+        //   maxWidth: 960,
+        //   padding: `0 1.0875rem 1.45rem`,
+        //   zIndex: `3`          
+        // }}
       >
         <main style={{ marginTop: `6rem`, zIndex: `3` }}>{children}</main>
         {/* <footer

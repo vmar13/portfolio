@@ -31,7 +31,8 @@ const Avatar = () => {
     height: `200px`,
     borderRadius: `50%`,
     marginLeft: `auto`, 
-    marginRight: `auto`
+    marginRight: `auto`,
+    zIndex: `2`
   }
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
