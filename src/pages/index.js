@@ -23,11 +23,7 @@ const IndexPage = (props) => (
         <h2 className='job-title'>Full Stack Developer</h2>
       </div>
     
-      <div style={{ 
-        maxWidth: `300px`, 
-        marginBottom: `1.45rem`, 
-        marginLeft: `auto`, 
-        marginRight: `auto` }}>
+      <div>
         <Avatar />
       </div>
     </BackgroundImage>

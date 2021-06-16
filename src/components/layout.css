@@ -642,9 +642,11 @@ body {
 }
 
 .name-and-title-container {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10%;
 }
 
 .masthead,
