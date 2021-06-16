@@ -12,7 +12,7 @@ const IndexPage = (props) => (
   <>
   <Navbar />
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Vanessa Martinez" />
 
     <BackgroundImage
       className='masthead'
