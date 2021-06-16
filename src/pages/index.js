@@ -23,9 +23,8 @@ const IndexPage = (props) => (
         <h2 className='job-title'>Full Stack Developer</h2>
       </div>
     
-      <div>
         <Avatar />
-      </div>
+      
     </BackgroundImage>
   </Layout>
   </>

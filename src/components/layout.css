@@ -645,10 +645,15 @@ body {
 
 .name-and-title-container {
   position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  margin: 10% 32% 0 32%;
+  /* margin: 10% 33% 0 33%; */
+  background-color: rgba(0,0,0,.3);
+  height: 100%;
+  width: 100%;
 }
 
 .masthead,
@@ -657,7 +662,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 80vh; 
+  height: 73vh; 
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; 

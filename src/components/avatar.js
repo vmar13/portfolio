@@ -27,13 +27,13 @@ const Avatar = () => {
   `)
 
   const styles = {
-    position: `absolute`,
+    position: `fixed`,
     width: `200px`,
     height: `200px`,
     borderRadius: `50%`,
-    marginLeft: `auto`, 
-    marginRight: `auto`,
-    marginTop: `30%`,
+    marginLeft: `43%`, 
+    marginRight: `41%`,
+    marginTop: `31%`,
     zIndex: `2`
   }
 
