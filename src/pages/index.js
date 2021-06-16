@@ -10,7 +10,6 @@ import { graphql } from "gatsby"
 
 const IndexPage = (props) => (
   <>
-  <Navbar />
   <Layout>
     <SEO title="Vanessa Martinez" />
 
@@ -22,9 +21,7 @@ const IndexPage = (props) => (
         <h1 className='name'>Vanessa Martinez</h1>
         <h2 className='job-title'>Full Stack Developer</h2>
       </div>
-    
-        <Avatar />
-      
+          
     </BackgroundImage>
   </Layout>
   </>
