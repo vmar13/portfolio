@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         //   zIndex: `3`          
         // }}
       >
-        <main style={{ marginTop: `6rem`, zIndex: `3` }}>{children}</main>
+        <main>{children}</main>
         {/* <footer
           style={{
             marginTop: `2rem`,

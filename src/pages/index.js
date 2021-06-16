@@ -15,13 +15,14 @@ const IndexPage = (props) => (
     <SEO title="Home" />
 
     <BackgroundImage
+      className='masthead'
       fluid={props.data.indexImage.childImageSharp.fluid}
     >
-      <div>
+      <div className='name-and-title-container'>
         <h1 className='name'>Vanessa Martinez</h1>
         <h2 className='job-title'>Full Stack Developer</h2>
       </div>
-
+    
       <div style={{ 
         maxWidth: `300px`, 
         marginBottom: `1.45rem`, 
@@ -30,13 +31,6 @@ const IndexPage = (props) => (
         <Avatar />
       </div>
     </BackgroundImage>
-
-    {/* <div className='home-nav-container'>
-      <button className='home-nav-btn'><Link to="/about/" style={{textDecoration: `none`}}>About</Link></button> 
-      <button className='home-nav-btn'><Link to="/projects/" style={{textDecoration: `none`}}>Projects</Link></button> 
-      <button className='home-nav-btn'><Link to="/resume/" style={{textDecoration: `none`}}>Resume</Link></button> 
-      <button className='home-nav-btn'><Link to="/blog/" style={{textDecoration: `none`}}>Blog</Link></button> 
-    </div> */}
   </Layout>
   </>
 )
