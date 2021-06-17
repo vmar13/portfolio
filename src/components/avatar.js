@@ -29,11 +29,12 @@ const Avatar = () => {
   const styles = {
     position: `fixed`,
     top: `25%`,
-    width: `200px`,
-    height: `200px`,
+    width: `205px`,
+    height: `205px`,
     borderRadius: `50%`,
     marginLeft: `58.5%`, 
-    marginRight: `41%`
+    marginRight: `41%`,
+    border: `solid green 5px`
   }
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {

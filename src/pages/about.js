@@ -5,19 +5,26 @@ import Avatar from '../components/avatar';
 const About = () => {
     return (
         <>
-        <Navbar />
-            <h1>About Me</h1>
+         {/* <Navbar /> */}
+            
             <div className='about-container'>
+                <h1>About Me</h1>
                 <h2>Hi, I'm Vanessa Martinez!</h2>
                 <h3>I’m a full stack web developer based in NYC.</h3>
-                <p>I come from a creative background, including writing, editing, painting (as a hobby), and now web development!</p>
-                <p>I first became interested in code while working with developers at previous jobs. I was fascinated by the creative aspect of such technical work.</p>
-                <p>So, I went to Flatiron School and completed the Software Engineering Immersive program.</p>
-                <p>I love building dynamic user interfaces with well-structured backends. My tech stack includes: 
+                <p>I come from a creative background, including writing, 
+                    editing, painting (as a hobby), and now web development!</p>
+                <p>I first became interested in code while working with 
+                    developers at previous jobs. I was fascinated by the 
+                    creative aspect of such technical work. So, I went to 
+                    Flatiron School and completed the Software Engineering 
+                    Immersive program.</p>
+                <p>Since then, I've enjoyed building dynamic user interfaces 
+                    with well-structured backends. My tech stack includes: 
                     JavaScript, React, and Ruby on Rails.</p>
             </div>
             <Avatar />
         </>
+    
 )
 }
 
