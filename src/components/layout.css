@@ -658,6 +658,7 @@ body {
   margin-bottom: 1%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 .name-and-title-container {
   position: absolute;
   top: 0;
@@ -668,6 +669,7 @@ body {
   background-color: rgba(0,0,0,.5);
   height: 100%;
   width: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 
