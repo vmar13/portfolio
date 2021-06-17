@@ -610,8 +610,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 38%;
-  margin: 0 auto;
+  width: 34%;
+  margin: 2% 0 0 18%;
 }
 
 .background-img,
