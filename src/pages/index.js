@@ -10,19 +10,18 @@ import { graphql } from "gatsby"
 
 const IndexPage = (props) => (
   <>
+  <Navbar />
   <Layout>
     <SEO title="Vanessa Martinez" />
 
     <BackgroundImage
-      className='masthead'
+      className='background-img'
       fluid={props.data.indexImage.childImageSharp.fluid}
-    >
-      <div className='name-and-title-container'>
+    />    
+    <div className='name-and-title-container'>
         <h1 className='name'>Vanessa Martinez</h1>
         <h2 className='job-title'>Full Stack Developer</h2>
-      </div>
-          
-    </BackgroundImage>
+    </div>
   </Layout>
   </>
 )
@@ -31,7 +30,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
     query {
-      indexImage: file(relativePath: { eq: "lucas-benjamin-wQLAGv4_OYs.jpg" }) {
+      indexImage: file(relativePath: { eq: "mohammad-rahmani-1bNQVGzuy0U.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 6720) {
             ...GatsbyImageSharpFluid
