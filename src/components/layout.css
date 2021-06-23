@@ -638,11 +638,11 @@ body {
 
 .nav-container {
   position: fixed;
+  top: 0;
   display: flex;
   width: 100%;
-  /* margin: 0; */
   justify-content: flex-end;
-  /* background-color: yellow; */
+  /* background-color: orange; */
   z-index: 5;
 }
 

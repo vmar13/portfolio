@@ -5,7 +5,7 @@ import Avatar from '../components/avatar';
 const About = () => {
     return (
         <>
-         {/* <Navbar /> */}
+         <Navbar />
             
             <div className='about-container'>
                 <h1>About Me</h1>
