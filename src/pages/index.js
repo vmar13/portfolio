@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Avatar from "../components/avatar"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
 import BackgroundImage from "gatsby-background-image"
