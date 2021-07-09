@@ -26,7 +26,15 @@ const Blog3 = () => {
     }
   `)
 
- 
+  const styles = {
+    position: `fixed`,
+    top: `65%`,
+    width: `310px`,
+    height: `250px`,
+    marginLeft: `18%`, 
+    marginRight: `41%`,
+    border: `solid green 5px`
+  }
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
