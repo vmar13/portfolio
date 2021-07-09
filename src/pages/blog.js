@@ -10,6 +10,7 @@ const Blog = () => {
             <h2 className='about-container'>Blog</h2>
             <Blog1 />
             <Blog2 />
+            <Blog3 />
         </>
     )
 }
