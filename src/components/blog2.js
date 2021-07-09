@@ -28,7 +28,7 @@ const Blog2 = () => {
 
   const styles = {
     position: `fixed`,
-    top: `25%`,
+    top: `65%`,
     width: `310px`,
     height: `250px`,
     marginLeft: `18%`, 
