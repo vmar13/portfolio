@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Blog1 from '../components/blog1';
 import Blog2 from '../components/blog2';
+import Blog3 from '../components/blog3';
+
 
 const Blog = () => {
     return (
