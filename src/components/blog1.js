@@ -36,11 +36,26 @@ const Blog1 = () => {
     border: `solid green 5px`
   }
 
+  const linkStyles = {
+      position: `fixed`,
+      top: `60%`,
+      width: `310px`,
+      height: `250px`,
+      marginLeft: `18%`, 
+      marginRight: `41%`,
+      color: `white`
+  }
+
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <>
+    <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+    <a href='https://vmar76.medium.com/solving-the-group-transactions-algorithm-10a14242327f' style={linkStyles}>Solving the “Group Transactions” Algorithm</a>
+    </>
+  )
 }
 
 export default Blog1;
