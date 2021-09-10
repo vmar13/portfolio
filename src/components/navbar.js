@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 const Navbar = () => {
     return (
         <div className='nav-container'>
+            <Link to="/" style={{textDecoration: `none`}} className='nav-btn'>HOME</Link>
             <Link to="/about/" style={{textDecoration: `none`}} className='nav-btn'>ABOUT</Link>
             <Link to="/work/" style={{textDecoration: `none`}} className='nav-btn'>WORK</Link>
             <Link to="/resume/" style={{textDecoration: `none`}} className='nav-btn'>RESUME</Link>
