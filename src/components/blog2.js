@@ -36,11 +36,25 @@ const Blog2 = () => {
     border: `solid green 5px`
   }
 
+  const linkStyles = {
+    position: `fixed`,
+    top: `60%`,
+    width: `310px`,
+    height: `250px`,
+    marginLeft: `53%`, 
+    marginRight: `41%`
+  }
+
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <>
+      <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+      <a href='https://vmar76.medium.com/how-to-unroll-a-matrix-array-c75f0a3a8c83' style={linkStyles}>How to Unroll a Matrix Array</a>
+    </>
+  )
 }
 
 export default Blog2;

@@ -37,11 +37,25 @@ const Blog3 = () => {
     border: `solid green 5px`
   }
 
+  const linkStyles = {
+    position: `fixed`,
+    top: `95%`,
+    width: `310px`,
+    height: `250px`,
+    marginLeft: `18%`, 
+    marginRight: `41%`
+  }
+
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <>
+  <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+  <a href='https://vmar76.medium.com/using-css-animations-to-visualize-breathing-techniques-7a20ee0aed5a' style={linkStyles}>Using CSS Animations to Visualize Breathing Techniques</a>
+  </>
+  )
 }
 
 export default Blog3;

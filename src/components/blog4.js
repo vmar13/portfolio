@@ -37,11 +37,25 @@ const Blog4 = () => {
     border: `solid green 5px`
   }
 
+  const linkStyles = {
+    position: `fixed`,
+    top: `95%`,
+    width: `310px`,
+    height: `250px`,
+    marginLeft: `53%`, 
+    marginRight: `41%`
+  }
+
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <>
+      <Img style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />
+      <a href='https://vmar76.medium.com/setting-up-jwt-authentication-in-a-rails-api-part-i-1f41be27656b' style={linkStyles}>Setting Up JWT Auth in a Rails API</a>
+    </>
+  )
 }
 
 export default Blog4;
